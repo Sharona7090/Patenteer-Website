@@ -1,0 +1,198 @@
+@media (max-width: 768px) {
+
+[class*="col-"] {
+  width: 100%;
+  max-width: 100%;
+
+  }
+
+.herodiv{
+  padding:50px 15px 10px 15px;
+}
+
+.heroimage{
+  width: 130%;
+      margin-top: 0px;
+      border: 5px solid;
+      border-radius: 5px;
+}
+.wrapper2{
+  height: 60px
+}
+.subheadline_br{
+  display: none
+}
+.toolimage{
+  display: none
+}
+.row{
+  display:block;
+  margin-left: 0;
+  margin-right: 0;
+}
+h1{
+  font-size: 4em;
+}
+h2{
+  font-size: 2em
+}
+h3{
+  font-size: 2.5em
+}
+h4{
+  font-size: 21px;
+}
+.product{
+  padding:100px 5px
+}
+.teamdiv{
+  margin: 10px;
+}
+.teamrow{
+  margin-bottom:0px;
+  margin-top:220px
+}
+.value2{
+  padding-top: 100px
+}
+.benefits {
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+.elevaterow{
+  padding: 100px 5px;
+}
+.security {
+    padding: 100px 10px 100px 10px;
+    text-align: center;
+}
+.end {
+    padding: 100px 10px 100px 10px;
+}
+.seetoolscontainer{
+  padding:0
+}
+.footertext{
+  font-size: 3em
+}
+.footermobile{
+  padding: 100px 50px;
+  text-align: center;
+}
+.footercol{
+  padding: 50px;
+}
+.footerdisclaim{
+  padding: 50px;
+}
+.securitybutton{
+  text-align: center;
+  float: inherit;
+}
+
+.prod_desc{
+  padding: 0 10px  !important;
+}
+.bgbottom{
+  display: block;
+}
+.bgtop{
+  display: none
+}
+.ccbottom{
+  display: block;
+}
+.cctop{
+  display: none
+}
+.imgtop{
+  display: none
+}
+.imgbottom{
+  display: block;
+  padding:10px !important
+
+}
+.prod_sec{
+  padding-top:0px !important
+}
+.value{
+  padding-top: 200px;
+  padding-bottom: 100px;
+
+}
+.aboutheadline{
+  font-size: 3em;
+}
+.aboutbox{
+  padding: 40px !important;
+}
+.aboutboxcontainer{
+  margin-bottom: 40px !important;
+}
+.securitypage{
+  padding: 0;
+}
+.securityrow{
+  margin-top: 120px;
+}
+.securitydivs{
+  padding: 0 !important;
+}
+.desktoplogo, .desktopnav{
+  display: none;
+}
+
+.mobilelogo{
+  display: contents !important;
+}
+.mobilenav{
+  display: inline-block !important;
+  float: right;
+}
+.hero{
+  margin-top: 0
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+  display: block !important;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.active {
+  background-color: #fff;
+  color: black;
+}
+/* .casedataimg{
+  padding: 10px !important;
+} */
+}

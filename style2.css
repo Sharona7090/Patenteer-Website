@@ -1,0 +1,102 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.wrapper2{
+    box-sizing: content-box;
+    /* background-color: #ffffff; */
+    height: 70px;
+    /* border-bottom: 7px solid #ffc107; */
+    /* padding: 50px 30px; */
+    display: inline-flex;
+    font: inherit;
+    /* border-radius: 8px;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.2); */
+}
+.words{
+  margin-bottom:-15px;
+    overflow: hidden;
+    font: inherit;
+    display: inline-grid;
+}
+span{
+    display: block;
+    height: 100%;
+    margin-bottom: 10px;
+    font: inherit;
+    /* color: #0e6ffc; */
+    /* border: 1px solid orange; */
+    animation: spin_words 5s infinite;
+}
+@keyframes spin_words{
+  0%{
+    transform: translateY(0%);
+  }
+  22%{
+    transform: translateY(0%);
+  }
+  28%{
+    transform: translateY(-105%);
+  }
+
+  33.3%{
+       transform: translateY(-100%);
+  }
+  55.3%{
+    transform: translateY(-100%);
+  }
+
+   61.3%{
+       transform: translateY(-205%);
+   }
+   66.6%{
+       transform: translateY(-200%);
+   }
+   88.6%{
+     transform: translateY(-200%);
+   }
+   94.6%{
+       transform: translateY(-305%);
+   }
+   100%{
+       transform: translateY(-300%);
+   }
+
+}
+
+nav {
+  /* position: absolute; */
+  /* padding: 10px 0; */
+}
+nav ul {
+  list-style: none;
+  ;
+  padding: 0;
+}
+nav > ul > li {
+  display: block;
+  position: relative;
+
+  /* for demo */
+}
+nav a {
+  font-weight: 800;
+  padding: 5px 10px;
+  display: block;
+}
+nav > ul > li.subNav ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  white-space: nowrap;
+  /* background: pink; */
+}
+nav ul li.subNav:hover ul {
+  display: block;
+}
