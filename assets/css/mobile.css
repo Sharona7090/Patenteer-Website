@@ -109,7 +109,7 @@ h4{
   display: none
 }
 .imgbottom{
-  display: block;
+  display: block !important;
   padding:10px !important
 
 }
@@ -195,4 +195,7 @@ h4{
 /* .casedataimg{
   padding: 10px !important;
 } */
+}
+.topsection{
+  padding-top: 100px
 }
