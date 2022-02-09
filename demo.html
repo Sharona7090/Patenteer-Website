@@ -151,7 +151,7 @@
 
 </div>
 <div class="col-lg-5 col-md-12">
-  <div class="card card-custom" style="padding:70px 40px">
+  <div id="demoform" class="card card-custom" style="padding:70px 40px">
    <div class="card-header" style="background-color: white; border-bottom-color: white;">
     <h3 class="card-title">
     Sign-up for a demo
@@ -162,32 +162,32 @@
      <input
    type="hidden"
    name="_redirect"
-   value="https://main.d2j6yf06zjh11v.amplifyapp.com/demo.html/?form=sent"
+   value="https://main.d2j6yf06zjh11v.amplifyapp.com/demo.html?form=sent"
  />
     <div class="card-body">
 
      <div class="form-group row">
       <label  class="col-4 col-form-label">* Full Name</label>
       <div class="col-8">
-       <input class="form-control" type="text"  id="name-input"/>
+       <input class="form-control" type="text"  name="name" id="name-input"/>
       </div>
     </div><br>
      <div class="form-group row">
       <label for="example-search-input" class="col-4 col-form-label">* Business Email</label>
       <div class="col-8">
-       <input class="form-control" type="email" id="email-input"/>
+       <input class="form-control" type="email" name="email" id="email-input"/>
       </div>
      </div><br>
      <div class="form-group row">
       <label for="example-search-input" class="col-4 col-form-label">* Firm/Company</label>
       <div class="col-8">
-       <input class="form-control" type="text"  id="firm-input"/>
+       <input class="form-control" type="text"  name="firm" id="firm-input"/>
       </div>
      </div><br>
      <div class="form-group row">
       <label for="example-email-input" class="col-4 col-form-label">* Job Title</label>
       <div class="col-8">
-       <input class="form-control" type="text" id="title-input"/>
+       <input class="form-control" type="text" name="title" id="title-input"/>
       </div>
      </div>
     </div>
@@ -202,6 +202,17 @@
     </div>
    </form>
   </div>
+
+  <div id="submitsuccess" class="card card-custom" style="padding:70px 40px">
+   <div class="card-header" style="background-color: white; border-bottom-color: white;">
+    <h3 class="card-title">
+    Thank you for submitting a demo request! We'll be in touch soon.
+    </h3>
+   </div>
+  
+  </div>
+
+
 
 
 
