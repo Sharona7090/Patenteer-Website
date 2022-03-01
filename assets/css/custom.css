@@ -225,11 +225,13 @@ a.anchor {
 }
 
 .navlogo{
-  padding-top: 8px;
+  padding-top: 5px;
     height: 50px;
-
 }
-
+.wrapper2{
+  overflow:hidden;
+  height:4.6vw
+}
 .main-header .main-menu ul li a{
   color: black;
   font-family:
