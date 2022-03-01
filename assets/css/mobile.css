@@ -1,5 +1,8 @@
 @media (max-width: 768px) {
 
+img{
+  image-rendering: auto
+}
 [class*="col-"] {
   width: 100%;
   max-width: 100%;

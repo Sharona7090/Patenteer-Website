@@ -3,7 +3,26 @@ img{
 image-rendering:   -o-crisp-edges;         /* Opera */
 image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
 image-rendering: crisp-edges;
--ms-interpolation-mode: nearest-neighbor; 
+-ms-interpolation-mode: nearest-neighbor;
+}
+.nocripedges{
+  image-rendering: auto;        /* Firefox */
+image-rendering:   auto;       /* Opera */
+image-rendering: auto; /* Webkit (non-standard naming) */
+image-rendering: auto;
+-ms-interpolation-mode: auto;
+}
+.appimage{
+  padding-right: 225px;
+}
+.prosimage{
+  padding-left: 250px;
+}
+.emailimage{
+  padding-right: 250px;
+}
+.shadow{
+  box-shadow: 3px 4px 12px #0000002e;
 }
 .bgbottom{
   display: none
@@ -206,8 +225,9 @@ a.anchor {
 }
 
 .navlogo{
-  padding-top: 4px;
-    height: 47px;
+  padding-top: 8px;
+    height: 50px;
+
 }
 
 .main-header .main-menu ul li a{
@@ -500,7 +520,7 @@ padding: 70px 10px !important
     max-width: 1300px;
 }
 .containerlarge {
-    max-width: 1650px;
+    max-width: 1600px;
 }
 }
 
