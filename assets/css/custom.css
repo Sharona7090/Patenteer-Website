@@ -1,4 +1,4 @@
-li{
+.claimslist li{
   display: inline-flex;
 }
 img{
@@ -7,6 +7,13 @@ image-rendering:   -o-crisp-edges;         /* Opera */
 image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
 image-rendering: crisp-edges;
 -ms-interpolation-mode: nearest-neighbor;
+}
+.logotext{
+  color: #2d3640;
+}
+.logotext:hover{
+  color: #2d3640;
+
 }
 .nocripedges{
   image-rendering: auto;        /* Firefox */
