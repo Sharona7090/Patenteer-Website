@@ -36,78 +36,110 @@
 
    <body>
 
-    <header>
-        <!-- Header Start -->
-       <div class="header-area header_area header-transparent">
-            <div class="main-header">
-               <div class="header-bottom  header-sticky">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <!-- Logo -->
-                            <div class="col-xl-2 col-lg-1 col-md-1">
-                                <div class="logo">
-                                  <a href="index.html"><img class="navlogo" src="img/newlogo1.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-9 col-lg-9 col-md-8">
-                                <!-- Main-menu -->
-                                <div class="main-menu f-right d-none d-lg-block">
-                                  <nav>
-  <ul>
+     <header>
+         <!-- Header Start -->
+        <div class="header-area header_area header-transparent desktopnav">
+             <div class="main-header">
+                <div class="header-bottom  header-sticky">
+                     <div class="container-fluid">
+                         <div class="row align-items-center">
+                             <!-- Logo -->
+                             <div class="col-xl-2 col-lg-1 col-md-1 desktoplogo">
+                                 <div class="logo">
+                                   <a href="index.html"><img class="navlogo" src="img/newlogo1.png" alt=""></a>
+                                 </div>
+                             </div>
 
-    <li class="subNav">
-      <a class="selected" style="padding:30px 20px">Product <i class="fas fa-caret-down" style="padding-left: 2px;"></i></a>
-      <ul style="background:white">
-        <li style="display:block"><a href="applications.html" style="padding: 5px 19px;">Application Tool </a>
-        </li>
-        <li style="display:block"><a href="prosecution.html" style="padding: 5px 19px;">Prosecution Tool</a>
-        </li>
-        <li style="display:block"><a href="emails.html" style="padding: 5px 19px;">Email Tool</a>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="about.html" style="padding:30px 20px">About</a>
-    </li>
-    <li>
-      <a href="onboarding.html" style="padding:30px 20px">Onboarding</a>
-    </li>
-  </ul>
-</nav>
-                                </div>
-                            </div>
-                            <div class="col-xl-1 col-lg-3 col-md-3">
-                                <div class="header-right-btn f-right d-none d-lg-block">
-                                    <a href="demo.html" class="btn header-btn btn-style1">Demo</a>
-                                </div>
-                            </div>
-                            <!-- Mobile Menu -->
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
-               </div>
-            </div>
-       </div>
-        <!-- Header End -->
-    </header>
+
+                             <div class="col-xl-9 col-lg-9 col-md-8">
+                                 <!-- Main-menu -->
+                                 <div class="main-menu f-right d-none d-lg-block">
+                                   <nav>
+   <ul>
+
+     <li class="subNav">
+       <a class="selected" style="padding:30px 20px">Product <i class="fas fa-caret-down" style="padding-left: 2px;"></i></a>
+       <ul style="background:white">
+         <li style="display:block"><a href="applications.html" style="padding: 5px 19px;">Application Tool </a>
+         </li>
+         <li style="display:block"><a href="prosecution.html" style="padding: 5px 19px;">Prosecution Tool</a>
+         </li>
+         <li style="display:block"><a href="emails.html" style="padding: 5px 19px;">Email Tool</a>
+         </li>
+       </ul>
+     </li>
+     <li>
+       <a href="about.html" style="padding:30px 20px">About</a>
+     </li>
+     <li>
+       <a href="onboarding.html" style="padding:30px 20px">Onboarding</a>
+     </li>
+   </ul>
+ </nav>
+                                 </div>
+                             </div>
+                             <div class="col-xl-1 col-lg-3 col-md-3">
+                                 <div class="header-right-btn f-right d-none d-lg-block">
+                                     <a href="demo.html" class="btn header-btn btn-style1">Demo</a>
+                                 </div>
+                             </div>
+
+                             <div class="col-12">
+                                 <div class="mobile_menu d-block d-lg-none" style=""></div>
+                             </div>
+                         </div>
+                     </div>
+                </div>
+             </div>
+        </div>
+
+   <!-- Mobile Menu -->
+        <div class="topnav" style="display:none">
+          <a href="index.html" class="active" style="padding: 15px;"><img class="navlogo" style="height:35px" src="img/newlogo1.png" alt=""></a>
+          <div id="myLinks">
+            <a href="applications.html">Application Tool</a>
+            <a href="prosecution.html">Prosecution Tool</a>
+            <a href="emails.html">Email Tool</a>
+            <a href="about.html">About</a>
+            <a href="onboarding.html">Onboarding</a>
+            <a style="background:aquamarine" href="demo.html" >Demo</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="    padding:20px;">
+            <i class="fa fa-bars" style="font-size:x-large"></i>
+          </a>
+        </div>
+
+        <script>
+ function myFunction() {
+   var x = document.getElementById("myLinks");
+   if (x.style.display === "block") {
+     x.style.display = "none";
+   } else {
+     x.style.display = "block";
+   }
+ }
+ </script>
+
+   <!-- Mobile Menu End -->
+
+         <!-- Header End -->
+     </header>
     <main>
 
 
         <div>
 
 <!-- case -->
-        <div class="sectionwhite">
+        <div class="sectionwhite topsection">
                     <div class="containerlarge">
                         <div class="row">
 
-                          <div class="col-xl-6 col-lg-6 col-md-6 imgtop" style="background-color: #dbebed; padding:50px 150px">
+                          <!-- <div class="col-xl-6 col-lg-6 col-md-6 imgtop" style="background-color: #dbebed; padding:50px 150px">
                                                 <div class="">
                                             <img class="" style="width:100%" src="img/email/case.png" alt="">
                                             </div>
-                                          </div>
-          <div class="col-xl-6 col-lg-6 col-md-6 prod_desc" style="margin:auto; padding-left: 200px;">
+                                          </div> -->
+          <div class="col-xl-6 col-lg-6 col-md-6 prod_desc" style="margin:auto; padding-right: 200px;">
                                     <div class="wantToWork-caption" style="">
                                     <h3>Sendable emails in a click</h3>
                                     <p style="margin-top:30px">Just select matter number and email type. No more searching for old emails, copy pasting email templates, or filling in case data. </p>
@@ -116,9 +148,9 @@
                                     </div> -->
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 imgbottom" style="background-color: #dbebed; padding:50px 150px">
+                            <div class="col-xl-6 col-lg-6 col-md-6 imgbottom" style="background-color: #dbebed; padding:40px 130px">
                                                   <div class="">
-                                              <img class="" style="width:100%" src="img/email/case.png" alt="">
+                                              <img class="shadow" style="width:100%" src="pngcropped/emaildata.png" alt="">
                                               </div>
                                             </div>
                         </div>
@@ -132,7 +164,13 @@
                                 <div class="sectionwhite prod_sec">
                                             <div class="containerlarge">
                                                 <div class="row">
-                          <div class="col-xl-5 col-lg-5 col-md-5 prod_desc" style="margin:auto; padding-right: 175px;">
+                                                  <div class="col-xl-7 col-lg-7 col-md-7 imgtop" style="">
+                                                  <div class="">
+                                                      <img class="shadow" style="width:100%" src="pngcropped/email.png" alt="">
+                                                    </div>
+                                                  </div>
+                          <div class="col-xl-5 col-lg-5 col-md-5 prod_desc" style="margin:auto; padding-left: 150px;">
+
                           <div class="wantToWork-caption" style="">
                               <h3>Native Draft Email </h3>
                               <p style="margin-top:30px">Opens a pre-filled and custom-templated draft email using your desktop email client (e.g., Outlook). Fill in any additional information and send.</p>
@@ -141,9 +179,9 @@
                                 </div> -->
                           </div>
                           </div>
-                          <div class="col-xl-7 col-lg-7 col-md-7" style="">
+                          <div class="col-xl-7 col-lg-7 col-md-7 imgbottom" style=" display:none">
                           <div class="">
-                              <img class="" style="width:100%" src="img/email/email.png" alt="">
+                              <img class="" style="width:100%" src="pngcropped/email.png" alt="">
                             </div>
                           </div>
                                                 </div>
@@ -204,8 +242,8 @@
                                         <li><a href="privacy.html">Privacy Policy</a></li>
                                         <li><a href="terms.html">Terms of Use</a></li>
                                         <li><a>&nbsp;</a> </li>
-                                        <li><a href="mailto:hello@AlphaDraft.com">hello@AlphaDraft.com</a></li>
-                                        <li><a>&copy AlphaDraft 2022</a></li>
+                                        <li><a href="mailto:hello@Patenteer.com">hello@Patenteer.com</a></li>
+                                        <li><a>&copy Patenteer 2022</a></li>
                                     </ul>
 
                                 </div>
@@ -215,7 +253,7 @@
 
     <div class="row">
     <div class="col-12 footerdisclaim">
-    <p style="font-size:16px !important; line-height:25px">AlphaDraft is not a law firm or a substitute for an attorney or law firm. Communications between you and AlphaDraft are protected by our Privacy Policy, but not by the attorney-client privilege or as work product. We cannot provide any kind of advice, explanation, opinion, or recommendation about possible legal rights, remedies, defenses, options, selection of forms, or strategies. Your access to our website is subject to our Terms of Use.</p>
+    <p style="font-size:16px !important; line-height:25px">Patenteer is not a law firm or a substitute for an attorney or law firm. Communications between you and Patenteer are protected by our Privacy Policy, but not by the attorney-client privilege or as work product. We cannot provide any kind of advice, explanation, opinion, or recommendation about possible legal rights, remedies, defenses, options, selection of forms, or strategies. Your access to our website is subject to our Terms of Use.</p>
     </div>
     </div>
 

@@ -1,3 +1,15 @@
+document.getElementById('submitsuccess').style.display = "none"
+var url_string = window.location.href
+var url = new URL(url_string);
+var form = url.searchParams.get("form");
+console.log(form)
+if (form == "sent"){
+  document.getElementById('demoform').style.display = "none"
+  document.getElementById('submitsuccess').style.display = "block"
+
+}
+
+
 function submitToAPI(e) {
        e.preventDefault();
        // var URL = "https://bne5cd6xe4.execute-api.us-east-1.amazonaws.com/default";

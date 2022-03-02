@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Prosecution Shells | AlphaDraft</title>
+        <title>Prosecution Shells | Patenteer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
@@ -33,78 +33,110 @@
 
    <body>
 
-    <header>
-        <!-- Header Start -->
-       <div class="header-area header_area header-transparent">
-            <div class="main-header">
-               <div class="header-bottom  header-sticky">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <!-- Logo -->
-                            <div class="col-xl-2 col-lg-1 col-md-1">
-                                <div class="logo">
-                                  <a href="index.html"><img class="navlogo" src="img/newlogo1.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-xl-9 col-lg-9 col-md-8">
-                                <!-- Main-menu -->
-                                <div class="main-menu f-right d-none d-lg-block">
-                                  <nav>
-  <ul>
+     <header>
+         <!-- Header Start -->
+        <div class="header-area header_area header-transparent desktopnav">
+             <div class="main-header">
+                <div class="header-bottom  header-sticky">
+                     <div class="container-fluid">
+                         <div class="row align-items-center">
+                             <!-- Logo -->
+                             <div class="col-xl-2 col-lg-1 col-md-1 desktoplogo">
+                                 <div class="logo">
+                                   <a href="index.html"><img class="navlogo" src="img/newlogo1.png" alt=""></a>
+                                 </div>
+                             </div>
 
-    <li class="subNav">
-      <a class="selected" style="padding:30px 20px">Product <i class="fas fa-caret-down" style="padding-left: 2px;"></i></a>
-      <ul style="background:white">
-        <li style="display:block"><a href="applications.html" style="padding: 5px 19px;">Application Tool</a>
-        </li>
-        <li style="display:block"><a href="prosecution.html" style="padding: 5px 19px;">Prosecution Tool</a>
-        </li>
-        <li style="display:block"><a href="emails.html" style="padding: 5px 19px;">Email Tool</a>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="about.html" style="padding:30px 20px">About</a>
-    </li>
-    <li>
-      <a href="onboarding.html" style="padding:30px 20px">Onboarding</a>
-    </li>
-  </ul>
-</nav>
-                                </div>
-                            </div>
-                            <div class="col-xl-1 col-lg-3 col-md-3">
-                                <div class="header-right-btn f-right d-none d-lg-block">
-                                    <a href="demo.html" class="btn header-btn btn-style1">Demo</a>
-                                </div>
-                            </div>
-                            <!-- Mobile Menu -->
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
-               </div>
-            </div>
-       </div>
-        <!-- Header End -->
-    </header>
+
+                             <div class="col-xl-9 col-lg-9 col-md-8">
+                                 <!-- Main-menu -->
+                                 <div class="main-menu f-right d-none d-lg-block">
+                                   <nav>
+   <ul>
+
+     <li class="subNav">
+       <a class="selected" style="padding:30px 20px">Product <i class="fas fa-caret-down" style="padding-left: 2px;"></i></a>
+       <ul style="background:white">
+         <li style="display:block"><a href="applications.html" style="padding: 5px 19px;">Application Tool </a>
+         </li>
+         <li style="display:block"><a href="prosecution.html" style="padding: 5px 19px;">Prosecution Tool</a>
+         </li>
+         <li style="display:block"><a href="emails.html" style="padding: 5px 19px;">Email Tool</a>
+         </li>
+       </ul>
+     </li>
+     <li>
+       <a href="about.html" style="padding:30px 20px">About</a>
+     </li>
+     <li>
+       <a href="onboarding.html" style="padding:30px 20px">Onboarding</a>
+     </li>
+   </ul>
+ </nav>
+                                 </div>
+                             </div>
+                             <div class="col-xl-1 col-lg-3 col-md-3">
+                                 <div class="header-right-btn f-right d-none d-lg-block">
+                                     <a href="demo.html" class="btn header-btn btn-style1">Demo</a>
+                                 </div>
+                             </div>
+
+                             <div class="col-12">
+                                 <div class="mobile_menu d-block d-lg-none" style=""></div>
+                             </div>
+                         </div>
+                     </div>
+                </div>
+             </div>
+        </div>
+
+   <!-- Mobile Menu -->
+        <div class="topnav" style="display:none">
+          <a href="index.html" class="active" style="padding: 15px;"><img class="navlogo" style="height:35px" src="img/newlogo1.png" alt=""></a>
+          <div id="myLinks">
+            <a href="applications.html">Application Tool</a>
+            <a href="prosecution.html">Prosecution Tool</a>
+            <a href="emails.html">Email Tool</a>
+            <a href="about.html">About</a>
+            <a href="onboarding.html">Onboarding</a>
+            <a style="background:aquamarine" href="demo.html" >Demo</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="    padding:20px;">
+            <i class="fa fa-bars" style="font-size:x-large"></i>
+          </a>
+        </div>
+
+        <script>
+ function myFunction() {
+   var x = document.getElementById("myLinks");
+   if (x.style.display === "block") {
+     x.style.display = "none";
+   } else {
+     x.style.display = "block";
+   }
+ }
+ </script>
+
+   <!-- Mobile Menu End -->
+
+         <!-- Header End -->
+     </header>
     <main>
 
 
         <div>
 
 <!-- case -->
-        <div class="sectionwhite">
+        <div class="sectionwhite topsection">
                     <div class="containerlarge">
                         <div class="row">
 
-                          <div class="col-xl-6 col-lg-6 col-md-6 imgtop" style="background-color: antiquewhite; padding:50px 150px">
+                          <div class="col-xl-6 col-lg-6 col-md-6 imgtop" style="background-color: antiquewhite; padding:40px 110px">
                                                 <div class="">
-                                            <img class="" style="width:100%" src="img/pros/case.png" alt="">
+                                            <img class="shadow" style="width:100%" src="pngcropped/prosdata.png" alt="">
                                             </div>
                                           </div>
-          <div class="col-xl-6 col-lg-6 col-md-6 prod_desc" style="margin:auto; padding-left: 200px;">
+          <div class="col-xl-6 col-lg-6 col-md-6 prod_desc" style="margin:auto; padding-left: 170px;">
                                     <div class="wantToWork-caption" style="">
                                     <h3>Quick and Reliable Prosecution Shells <h3>
                                     <p style="margin-top:30px">Create shells for any type of prosecution document with just a few clicks. Start by selecting case and document type.</p>
@@ -113,9 +145,9 @@
                                     </div> -->
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 imgbottom casedataimg" style="background-color: antiquewhite; padding:50px 150px">
-                                                  <div class="">
-                                              <img class="" style="width:100%" src="img/pros/case.png" alt="">
+                            <div class="col-xl-6 col-lg-6 col-md-6 imgbottom imgbottom" style="background-color: antiquewhite; padding:50px 150px; display:none">
+                                                  <div class="" style="padding:10px">
+                                              <img class="shadow" style="width:100%" src="pngcropped/prosdata.png" alt="">
                                               </div>
                                             </div>
                         </div>
@@ -129,7 +161,7 @@
                 <div class="sectionwhite prod_sec"  style="display:none">
                             <div class="containerlarge">
                                 <div class="row">
-  <div class="col-xl-5 col-lg-5 col-md-5 prod_desc" style="margin:auto; padding-right: 175px;">
+  <div class="col-xl-5 col-lg-5 col-md-5 prod_desc" style="margin:auto; padding-right: 100px;">
           <div class="wantToWork-caption" style="">
               <h3>Straight-forward inputs</h3>
               <p style="margin-top:30px">Simply fill out the requested information for the document type. Case data is pre-filled. No more searching for templates or manually copy/pasting boilerplate or case data. </p>
@@ -138,9 +170,9 @@
                 </div>
           </div>
 </div>
-<div class="col-xl-7 col-lg-7 col-md-7 casedataimg" style="background-color: #b7d1ff; padding: 60px 10px 60px 20px;">
+<div class="col-xl-7 col-lg-7 col-md-7 casedataimg" style="background-color: #b7d1ff; padding: 50px 20px 50px 20px;">
           <div class="">
-              <img class="" style="width:100%" src="img/pros/casedata.png" alt="">
+              <img class="shadow" style="width:100%" src="pngcropped/prosform.png" alt="">
             </div>
 </div>
                                 </div>
@@ -160,9 +192,11 @@
                                                                     </div> -->
                                                                 </div>
                                                             </div>
-                          <div class="col-xl-7 col-lg-7 col-md-7 casedataimg" style="padding: 60px 16px 50px 24px; background: #cbe3e5;">
+                          <div class="col-xl-7 col-lg-7 col-md-7 casedataimg" style="padding: 50px 24px 50px 24px; background: #cbe3e5;">
                                                 <div class="">
-                                            <img class="" style="width:100%" src="img/pros/form.png" alt="">
+                                            <img class="shadow" style="width:100%" src="pngcropped/prosform.png" alt="">
+
+
                                             </div>
                                           </div>
 
@@ -178,7 +212,7 @@
                                                 <div class="row">
                                                   <div class="col-xl-7 col-lg-7 col-md-7 imgtop" style="">
                                                   <div class="">
-                                                      <img class="" style="width:100%" src="img/pros/downloadpros.png" alt="">
+                                                      <img class="shadow" style="width:100%" src="pngcropped/pros.png" alt="">
                                                     </div>
                                                   </div>
                           <div class="col-xl-5 col-lg-5 col-md-5 prod_desc" style="margin:auto; padding-left: 150px;">
@@ -190,9 +224,9 @@
                                 </div> -->
                           </div>
                           </div>
-                          <div class="col-xl-7 col-lg-7 col-md-7 imgbottom casedataimg" style="">
+                          <div class="col-xl-7 col-lg-7 col-md-7 imgbottom casedataimg" style="display:none">
                           <div class="">
-                              <img class="" style="width:100%" src="img/pros/downloadpros.png" alt="">
+                              <img class="shadow" style="width:100%" src="pngcropped/pros.png" alt="">
                             </div>
                           </div>
 
@@ -254,8 +288,8 @@
                                         <li><a href="privacy.html">Privacy Policy</a></li>
                                         <li><a href="terms.html">Terms of Use</a></li>
                                         <li><a>&nbsp;</a> </li>
-                                        <li><a href="mailto:hello@AlphaDraft.com">hello@AlphaDraft.com</a></li>
-                                        <li><a>&copy AlphaDraft 2022</a></li>
+                                        <li><a href="mailto:hello@Patenteer.com">hello@Patenteer.com</a></li>
+                                        <li><a>&copy Patenteer 2022</a></li>
                                     </ul>
 
                                 </div>
@@ -265,7 +299,7 @@
 
     <div class="row">
     <div class="col-12 footerdisclaim">
-    <p style="font-size:16px !important; line-height:25px">AlphaDraft is not a law firm or a substitute for an attorney or law firm. Communications between you and AlphaDraft are protected by our Privacy Policy, but not by the attorney-client privilege or as work product. We cannot provide any kind of advice, explanation, opinion, or recommendation about possible legal rights, remedies, defenses, options, selection of forms, or strategies. Your access to our website is subject to our Terms of Use.</p>
+    <p style="font-size:16px !important; line-height:25px">Patenteer is not a law firm or a substitute for an attorney or law firm. Communications between you and Patenteer are protected by our Privacy Policy, but not by the attorney-client privilege or as work product. We cannot provide any kind of advice, explanation, opinion, or recommendation about possible legal rights, remedies, defenses, options, selection of forms, or strategies. Your access to our website is subject to our Terms of Use.</p>
     </div>
     </div>
 
