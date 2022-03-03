@@ -106,9 +106,14 @@ h4{
   text-align: center;
   float: inherit;
 }
-
+.sectionwhite{
+  padding-bottom: 100px
+}
 .prod_desc{
   padding: 0 10px  !important;
+}
+.featuretext{
+  margin-top: 0px;
 }
 .bgbottom{
   display: block;
