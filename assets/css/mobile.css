@@ -28,10 +28,16 @@ img{
       border-radius: 5px;
 }
 .wrapper2{
-  height: 20.5vw;
+  height: 19.5vw;
+}
+.scalablespan{
+  margin-right: 10vw;
 }
 .subheadline_br{
   display: none
+}
+.heroCTA{
+  margin-top: 40px;
 }
 .toolimage{
   display: none
@@ -42,7 +48,7 @@ img{
   margin-right: 0;
 }
 h1{
-  font-size: 4em;
+  font-size: 15.5vw;
 }
 h2{
   font-size: 2em
