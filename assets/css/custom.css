@@ -46,6 +46,9 @@ image-rendering: auto;
       border: 40px solid;
       border-radius: 20px;
 }
+.scalablespan{
+  margin-right: 2.55vw;
+}
 .herodiv{
   padding: 180px 100px 180px 100px;
 }
