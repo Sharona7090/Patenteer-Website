@@ -1,3 +1,7 @@
+.casedataimg{
+  background-color: #b7d1ff;
+  padding: 50px 20px 50px 20px;
+}
 .claimslist li{
   display: inline-flex;
 }
