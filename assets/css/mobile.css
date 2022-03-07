@@ -6,7 +6,7 @@ image-rendering: -webkit-optimize-contrast;
 image-rendering: crisp-edges;
 -ms-interpolation-mode: nearest-neighbor; */
 
-padding-top: 3px
+padding-top: 3px 
 }
 img{
   image-rendering: auto
